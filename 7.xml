@@ -1,0 +1,2902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="" >
+<node_order><![CDATA[]]></node_order>
+<details><![CDATA[]]> 
+</details><testsuite name="Crear Cuenta" >
+<node_order><![CDATA[0]]></node_order>
+<details><![CDATA[<p>&nbsp;Casos de prueba para crear una nueva cuenta</p>]]> 
+</details>
+<testcase internalid="46" name="Crear Nueva Cuenta">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[6]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp; Validar creacion de una cuenta nueva para poder acceder a la aplicaci&oacute;n web de Start Americas Together</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte inferior llamado CREAR CUENTA NUEVA</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muetra un formulario de registro.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el campo Ingresa tu correo electronico e ingresar el correo electronico</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra el correo electronico ingresado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Dar click en el campo Ingresa tu&nbsp;nombre e ingresar el nombre</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el nombre ingresado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el campo Ingresa tu&nbsp;numero e ingresar un numero de tel&eacute;fono</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el numero ingresado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<div>&nbsp;Dar click en el campo Ingresa tu&nbsp;contrase&ntilde;a e ingresar una contrase&ntilde;a</div>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra la contrase&ntilde;a oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<div>&nbsp;Dar click en el campo Confirma tu&nbsp;contrase&ntilde;a e ingresar la misma contrase&ntilde;a que se puso en el campo Ingresa tu contrase&ntilde;a</div>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra la contrase&ntilde;a oculta sin ningun mensaje de error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton crear cuenta start</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra un mensaje de cuenta creada correctamente.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="63" name="Validar que se ingreso correo electrónico correcto">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[7]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso un correo electronico no muestra un error de correo incorrecto</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo de texto con el nombre Ingresa tu correo electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el correo electr&oacute;nico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar un correo electr&oacute;nico con formato valido por ejemplo abc@abc.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>El correo electr&oacute;nico se muestra en el campo sin mostrar ningun mensaje de error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="69" name="Validar que se ingreso correo electrónico incorrecto">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso un correo electronico incorrecto muestra un error de correo electronico no valido.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo de texto con el nombre Ingresa tu correo electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el correo electr&oacute;nico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar un correo electr&oacute;nico con formato invalido por ejemplo abcabc.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>El correo electr&oacute;nico se muestra en el campo mostrando un mensaje de error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="75" name="Validar que se ingreso un nombre">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso un nombre correcto no muestra un error de nombre no valido.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo de texto con el nombre Ingresa tu nombre dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el nombre</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar tu nombre ingresar un nombre valido por ejemplo Lucas</p>]]></actions>
+	<expectedresults><![CDATA[<p>El nombre se muestra en el campo sin mostrar un mensaje de error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="81" name="Validar que se ingreso un nombre incorrecto">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[10]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso un nombre incorrecto nos muestra un error de nombre no valido.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo de texto con el nombre Ingresa tu nombre dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el nombre</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar tu nombre ingresar un nombre invalido por ejemplo Luc45</p>]]></actions>
+	<expectedresults><![CDATA[<p>El nombre se muestra en el campo mostrando un mensaje de error de nombre invalido.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="87" name="Validar que se ingreso un apellido correcto">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que si se ingreso un apellido correcto no muestra un error de nombre no valido.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo de texto con el nombre Ingresa tu apellido dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el apellido</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar tu nombre ingresar un apellido valido por ejemplo Perez</p>]]></actions>
+	<expectedresults><![CDATA[<p>El apellido se muestra en el campo sin mostrar un mensaje de error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="93" name="Validar que se ingreso un apellido incorrecto">
+	<node_order><![CDATA[7]]></node_order>
+	<externalid><![CDATA[12]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso un apellido incorrecto nos muestra un error de apellido no valido.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo de texto con el nombre Ingresa tu apellido dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el apellido</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar tu apellido ingresar un apellido invalido por ejemplo P3r35</p>]]></actions>
+	<expectedresults><![CDATA[<p>El apellido se muestra en el campo mostrando un mensaje de error de apellido invalido.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="99" name="Validar que se ingreso un numero de telefono">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso un numero de telefono correcto no muestra un error de telefono no valido.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo con el nombre Ingresa tu numero de telefono dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el numero de telefono</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo ingersa tu numero de telefono ingresar un numero menor o igual a 8 digitos y mayor a 7 digitos</p>]]></actions>
+	<expectedresults><![CDATA[<p>El numero de telefono se muestra en el campo sin mostrar un mensaje de error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="105" name="Validar que se ingreso un numero de telefono invalido">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[14]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso un numero de telefono incorrecto nos muestra un error de telefono no valido.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo con el nombre Ingresa tu numero de telefono dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir el numero de telefono</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo ingersa tu numero de telefono ingresar un numero mayor a 8 digitos</p>]]></actions>
+	<expectedresults><![CDATA[<p>El numero de telefono se muestra en el campo mostrando un mensaje de error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="117" name="Validar que se ingreso una contraseña correcta">
+	<node_order><![CDATA[10]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso una contrase&ntilde;a correcta mayor a 6 caracteres y debe tener un numero si cumple no muestra un error de que la contrase&ntilde;a debe cumplir los requisitos.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo con el nombre Ingresa tu contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir la contrase&ntilde;a</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo ingersa tu contrase&ntilde;a ingresar una contrase&ntilde;a que tenga 6 caracteres y un numero por ejemplo holamu1</p>]]></actions>
+	<expectedresults><![CDATA[<p>La contrase&ntilde;a se muestra en el campo&nbsp; de forma oculta sin mostrar un mensaje de error de que debe incluir 6 caracteres y un numero.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="123" name="Validar que se ingreso una contraseña incorrecta">
+	<node_order><![CDATA[11]]></node_order>
+	<externalid><![CDATA[17]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se ingreso una contrase&ntilde;a incorrecta muestra un error de que la contrase&ntilde;a debe cumplir los requisitos</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo con el nombre Ingresa tu contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos introducir la contrase&ntilde;a</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo ingersa tu contrase&ntilde;a ingresar una contrase&ntilde;a que tenga 5 caracteres y un numero por ejemplo holas1</p>]]></actions>
+	<expectedresults><![CDATA[<p>En el campo de contrase&ntilde;a muestra un error diciendo que tenemos que cumplir con los requisitos 6 caracteres y un numero</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="129" name="Validar que se ingreso la misma contraseña de forma correcta">
+	<node_order><![CDATA[12]]></node_order>
+	<externalid><![CDATA[18]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que si se ingreso la misma contrase&ntilde;a no muestra un error.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo con el nombre Confirma tu contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos volver a introducir la contrase&ntilde;a</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo Confirma tu contrase&ntilde;a volver a ingresar la contrase&ntilde;a que se puso en el campo Ingresa tu contrase&ntilde;a por ejemplo holamu1</p>]]></actions>
+	<expectedresults><![CDATA[<p>En el campo de Confirma tu contrase&ntilde;a no muestra ningun error.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="135" name="Validar que se ingreso la misma contraseña de forma incorrecta">
+	<node_order><![CDATA[13]]></node_order>
+	<externalid><![CDATA[19]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que si se ingreso una diferente contrase&ntilde;a en el campo confirma tu contrase&ntilde;a muestra un error.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet&nbsp;</p>
+<p>Navegador web</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;&nbsp;Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El navegador web abre la pagina https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click en el bot&oacute;n ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El bot&oacute;n nos dirige a la pagina de inicio de sesi&oacute;n https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo con el nombre Confirma tu contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Podremos volver a introducir la contrase&ntilde;a</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo Confirma tu contrase&ntilde;a ingresar cualquier contrase&ntilde;a por ejemplo hello1</p>]]></actions>
+	<expectedresults><![CDATA[<p>En el campo de Confirma tu contrase&ntilde;a muestra un mensaje de error que las contrase&ntilde;as no coinciden.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite name="Inicio de sesión" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[<p>Todos los casos de prueba estan relacionados al inicio de sesi&oacute;n de la aplicacion Start Americas Together</p>]]> 
+</details>
+<testcase internalid="14" name="Iniciar sesión como voluntario">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[2]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que si ingreso el nombre de usuario y contrase&ntilde;a de voluntario correcta, la ventana de bienvenida se muestra de la aplicaci&oacute;n web de Start Americas Together con un rol de voluntario.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta con rol de voluntario</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir el correo electronico de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida con el rol en la parte superior derecha encima de la imagen de perfil.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="25" name="Iniciar sesión como lider">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que si ingreso el nombre de usuario y contrase&ntilde;a de voluntario correcta, la ventana de bienvenida se muestra de la aplicaci&oacute;n web de Start Americas Together con un rol de lider.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta con rol de lider</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir el correo electronico de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar el correo electronico de voluntaro que es lider@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de lider que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando un mensaje de bienvenida con el rol en la parte superior derecha encima de la foto de perfil.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="34" name="Iniciar sesión como coreteam">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[4]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<div>Validar que si ingreso el nombre de usuario y contrase&ntilde;a de voluntario correcta, la ventana de bienvenida se muestra de la aplicaci&oacute;n web de Start Americas Together con un rol de coreteam.</div>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta con rol de coreteam</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir el correo electronico de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar el correo electronico de coreteam que es coreteam@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de coreteam que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando un mensaje de bienvenida con el rol en la parte superior derecha encima de la foto de perfil.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="43" name="Validar el botón para Cerrar Sesión">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[5]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Caso de prueba para cerrar sesi&oacute;n valida para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Conexion a internet</p>
+<p>Navegador Web</p>
+<p>Tener una cuenta para iniciar sesion en Start Americas Together&nbsp;https://testing-start.web.app/login</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Abrir en el navegador web la pagina https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>El navegador web abre la pagina https://testing-start.web.app&nbsp;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>El boton nos dirige a la pagina de inicio de sesion https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto con el nombre Correo Electr&oacute;nico dar click&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; Podremos introducir el correo electronico de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto ingresar el correo electronico de voluntario que es voluntario@gmail.com&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp; En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a&nbsp;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando un mensaje de bienvenida con el rol en la parte superior derecha encima de la foto de perfil.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click al bot&oacute;n LOGOUT ubicado en la parte superior derecha.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; Se cierra la sesi&oacute;n y nos redirige al formulario para iniciar sesi&oacute;n.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite name="Proyectos" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[<div>Todos los casos de prueba est&aacute;n relacionados a proyectos de la aplicaci&oacute;n Start Americas Together</div>]]> 
+</details>
+<testcase internalid="151" name="Crear un Proyecto">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se crea un proyecto correctamente valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Proyectos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de proyectos https://testing-start.web.app/projects</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton de color verde llamado CREAR PROYECTO ubicado en la parte derecha a lado del titulo de la pagina</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo Ingrese el titulo ingresar cualquier titulo por ejemplo titulo1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el titulo que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Ingrese una descripcion ingresar un texto cualquiera por ejemplo descripcion1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra la descripcion ingresada</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Ingrese el objetivo ingresar un texto cualquiera por ejemplo objetivo1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el texto que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto Escriba el nombre del lider ingresar un nombre por ejemplo paul</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el nombre que ingresamos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton Crear</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El proyecto es creado y se muestra en la lista de proyectos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="167" name="Validar campos vacíos de Crear un Proyecto">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[21]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que no exista campos vac&iacute;os valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Proyectos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de proyectos https://testing-start.web.app/projects</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton de color verde llamado CREAR PROYECTO ubicado en la parte derecha a lado del titulo de la pagina</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton verde llamado Crear</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra un mensaje de error donde no se permite campos vacios</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="196" name="Validar campo de texto Nombre del Líder de Crear un Proyecto">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[23]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se introduce un nombre incorrecto no se puede crear un proyecto. valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Proyectos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de proyectos https://testing-start.web.app/projects</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton de color verde llamado CREAR PROYECTO ubicado en la parte derecha a lado del titulo de la pagina</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo Ingrese el titulo ingresar cualquier titulo por ejemplo titulo1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el titulo que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Ingrese una descripcion ingresar un texto cualquiera por ejemplo descripcion1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra la descripcion ingresada</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Ingrese el objetivo ingresar un texto cualquiera por ejemplo objetivo1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el texto que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto Escriba el nombre del lider ingresar un nombre por ejemplo paul0123</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra un mensaje de nombre no valido</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton Crear</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El proyecto no puede ser creado y muestra un error de nombre de lider no valido.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="212" name="Validar el botón de Cancelar para el formulario Crear un Proyecto">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[24]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que el bot&oacute;n de Cancelar cierre el formulario. valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Proyectos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de proyectos https://testing-start.web.app/projects</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton de color verde llamado CREAR PROYECTO ubicado en la parte derecha a lado del titulo de la pagina</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton de cancelar</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El formulario se cierra</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="229" name="Validar formulario de editar de la pagina Proyectos">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[25]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se edito un proyecto correctamente valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Proyectos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de proyectos https://testing-start.web.app/projects</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton llamado EDITAR ubicado en la parte derecha de la informacion del proyecto a lado del boton eliminar.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos editar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo Ingrese el titulo ingresar cualquier titulo por ejemplo titulo2</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el titulo que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Ingrese una descripcion ingresar un texto cualquiera por ejemplo descripcion2</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra la descripcion ingresada</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Ingrese el objetivo ingresar un texto cualquiera por ejemplo objetivo2</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el texto que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto Escriba el nombre del lider ingresar un nombre por ejemplo paulo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el nombre que ingresamos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton Editar</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El proyecto es editado y se muestra en la lista de proyectos con los nuevos datos ingresados.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="245" name="Validar la eliminación de un proyecto de la pagina Proyectos">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se elimino un proyecto que estaba listado valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>
+<p>Tener un proyecto creado</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Proyectos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de proyectos https://testing-start.web.app/projects</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En la lista de proyectos Dar click al boton rojo llamado Eliminar ubicado en la parte derecha de la informacion del proyecto a lado del boton editar.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra un mensaje si estamos seguros de eliminar el proyecto.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton de confirmaci&oacute;n de eliminar proyecto</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El proyecto es eliminado y desaparece de la lista de proyectos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="263" name="Validar participación en un proyecto de la pagina Proyectos">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se esta participando en un proyecto que esta listado.Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>
+<p>Tener un proyecto creado</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Proyectos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de proyectos https://testing-start.web.app/projects</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>En la lista de proyectos Dar click al boton verde llamado PARTICIPAR ubicado en la parte derecha de la informaci&oacute;n del proyecto a lado del boton editar.&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra un mensaje de registro de participaci&oacute;n correcto en un Proyecto.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Dar click a perfil en el menu ubicado en la parte derecha debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos redirige a la pagina de perfil&nbsp;https://testing-start.web.app/perfil</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click a MIS PROYECTOS en el menu del perfil ubicado en la parte derecha debajo de la foto de perfil.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El proyecto en el que estamos participando es visualizado.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite name="Eventos" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[<p>&nbsp;Todos los casos de prueba est&aacute;n relacionados a eventos de aplicaci&oacute;n Start Americas Together</p>]]> 
+</details>
+<testcase internalid="276" name="Crear un Evento">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[28]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se crea un evento correctamente valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton llamado Crear Evento ubicado en la parte derecha a lado del titulo de la pagina</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto Nombre del Evento ingresar un texto por ejemplo evento1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el nombre del evento que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto Descripci&oacute;n ingresar un texto por ejemplo descripcion1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra la descripcion ingresada</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Modalidad dar click y seleccionar un tipo de modalidad</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el la modalidad selecionada</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto Lugar ingresar un texto por ejemplo lugar1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el lugar que ingresamos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de fecha seleccionar una fecha mayor al dia actual.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra la fecha ingresada.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[15]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton Registrar Evento</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El Evento es creado y se muestra en la lista de Eventos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="293" name="Validar campos vacíos del formulario Crear un Evento">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que no exista campos vac&iacute;os valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton llamado Crear Evento ubicado en la parte derecha a lado del titulo de la pagina</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Dar click en el bot&oacute;n Registrar Evento&nbsp;</p>]]></actions>
+	<expectedresults><![CDATA[<p>El evento no es registrado y muestra un mensaje de error de no se permite campos vacios.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="311" name="Validar el botón de cancelar del formulario Crear un Evento">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que el bot&oacute;n de Cancelar cierre el formulario. valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton llamado Crear Evento ubicado en la parte derecha a lado del titulo de la pagina</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Dar click en el bot&oacute;n Cancelar</p>]]></actions>
+	<expectedresults><![CDATA[<p>El evento no es registrado y vuelve a la lista de eventos cerrando el formulario.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="323" name="Validar el botón de Ver Evento del formulario Crear un Evento">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que el bot&oacute;n de Ver Evento muestre informacion del evento. valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>
+<p>Un Evento Creado</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton llamado Ver Evento ubicado en la parte media de la informacion del evento</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra m&aacute;s informacion acerca del evento</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="335" name="Validar la eliminación de un Evento de la pagina Evento">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[32]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Validar que se elimino un evento que estaba listado valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>
+<p>Un Evento Creado</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton llamado Eliminar ubicado en la parte izquierda de la informacion del evento</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra un mensaje si estamos seguros de eliminar un evento.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton de confirmar eliminacion del evento</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El evento es eliminado y desaparece de la lista de eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="347" name="Validar participación en un Evento de la pagina Eventos">
+	<node_order><![CDATA[7]]></node_order>
+	<externalid><![CDATA[33]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se esta participando en un evento que esta listado. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>
+<p>Tener un evento creado</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>En la lista de eventos Dar click al boton llamado Participar ubicado en la parte media de la informaci&oacute;n del evento a lado del boton Ver Evento.</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra un mensaje de registro de participaci&oacute;n correcto en un Evento.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Dar click a perfil en el menu ubicado en la parte derecha debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos redirige a la pagina de perfil&nbsp;https://testing-start.web.app/perfil</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click a MIS EVENTOS en el menu del perfil ubicado en la parte derecha debajo de la foto de perfil.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El evento en el que estamos participando es visualizado en la lista.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="360" name="Validar que se archivo un Evento de la pagina Eventos">
+	<node_order><![CDATA[8]]></node_order>
+	<externalid><![CDATA[34]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se Archivo un evento que esta listado. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>
+<p>Tener un evento creado</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>En la lista de eventos Dar click al boton llamado Archivar ubicado arriba del boton eliminar.</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra un mensaje que se archivo correctamente un Evento.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Dar click al boton Eventos pasados</p>]]></actions>
+	<expectedresults><![CDATA[<p>el evento archivado se muestra en la lista.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="373" name="Validar eliminación de participación en un Evento de la pagina Eventos">
+	<node_order><![CDATA[9]]></node_order>
+	<externalid><![CDATA[35]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se esta eliminando la participando en un evento que esta listado. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>
+<p>Tener un evento creado</p>
+<p>Estar participando en un evento</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Eventos ubicado en la parte media debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de eventos https://testing-start.web.app/eventos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>En la lista de eventos Dar click al boton llamado Eliminar Participacion ubicado en la parte media de la informaci&oacute;n del evento a lado del boton Ver Evento.</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra un mensaje de participaci&oacute;n eliminada.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Dar click a perfil en el menu ubicado en la parte derecha debajo del logotipo</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos redirige a la pagina de perfil&nbsp;https://testing-start.web.app/perfil</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click a MIS EVENTOS en el menu del perfil ubicado en la parte derecha debajo de la foto de perfil.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El evento en el que estamos participando ya no es visualizado en la lista.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite name="Perfil" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[<p>&nbsp;Todos los casos de prueba est&aacute;n relacionados a perfil de la aplicaci&oacute;n Start Americas Together</p>]]> 
+</details>
+<testcase internalid="395" name="Validar Rol de la Cuenta en perfil">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[36]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se tiene un rol asignado dentro del perfil de usuario. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Perfil ubicado en la parte media debajo del logotipo Start Americas Together</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Perfil&nbsp;https://testing-start.web.app/perfil debajo de la foto de perfil nos muetra el rol de la cuenta.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="412" name="Validar el botón de intercambio de disponibilidad de la Cuenta en perfil.">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[37]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar el boton de intercambio de disponibilidad de la cuenta en perfil. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Perfil ubicado en la parte izquierda debajo del logotipo Start Americas Together</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Perfil&nbsp;https://testing-start.web.app/perfil debajo de la foto de perfil nos muetra el rol de la cuenta.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En la parte derecha a lado de la foto de perfil dar click al boton de intercambio llamado Estoy Disponible o No disponible.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El estado de la cuenta cambia a Estoy disponible o No Disponible.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="423" name="Editar Perfil">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[38]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se edito la informacion del perfil. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Perfil ubicado en la parte izquierda debajo del logotipo de Start Americas Together</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Perfil&nbsp;https://testing-start.web.app/perfil</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click al boton llamado EDITAR PERFIL ubicado en la parte de informacion a lado del boton ELIMINAR PERFIL</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos abre un formulario donde podemos volver a ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto Nombre ingresar un texto por ejemplo Paul</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el texto que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto Apellido ingresar un texto por ejemplo Hola</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el texto ingresado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[12]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Fecha de nacimiento dar click e introducir una fecha menor a la actual.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra la fecha que ingresamos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[13]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Ocupaci&oacute;n dar click y seleccionar una ocupaci&oacute;n.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra la ocupaci&oacute;n selecionada.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[14]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo Profesion u oficio ingresar un texto por ejemplo nada</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;nos muestra el texto que ingresamos</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[15]]></step_number>
+	<actions><![CDATA[<p>Selecionar los intereses en Mis Intereses por ejemplo Educacion</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El interes selecionado es mostrado en datos personales intereses generales</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[16]]></step_number>
+	<actions><![CDATA[<p>Selecionar las cualidades en Mis Cualidades por ejemplo Creatividad</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El interes selecionado es mostrado en los datos personales Cualidades</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[17]]></step_number>
+	<actions><![CDATA[<p>En el campo de Pais de residencia ingresar un texto por ejemplo Bolivia</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El texto es mostrado en el campo Pais de residencia</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[18]]></step_number>
+	<actions><![CDATA[<p>En el campo de cuidad de residencia ingresar un texto por ejemplo cbba</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El texto es mostrado en el campo ciudad de residencia</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[19]]></step_number>
+	<actions><![CDATA[<p>En el campo de Telefono ingresar un numero por ejempo 12345678</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El numero es mostrado en el campo Telefono.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[20]]></step_number>
+	<actions><![CDATA[<p>Selecionar el Genero en Genero por ejemplo Masculino</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El genero selecionado es mostrado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[21]]></step_number>
+	<actions><![CDATA[<p>En el campo de Nombre de contacto de emergencia: ingresar un texto por ejemplo pedro</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El texto es mostrado en&nbsp;Nombre de contacto de emergencia:</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[22]]></step_number>
+	<actions><![CDATA[<p>En el campo de Relaci&oacute;n con contacto de emergencia: ingresar un texto por ejemplo familia</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El texto ingresado es mostrado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[23]]></step_number>
+	<actions><![CDATA[<p>En el campo N&uacute;mero de contacto de emergencia: ingresar un numero por ejemplo 12345678</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El numero ingresado es mostrado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[24]]></step_number>
+	<actions><![CDATA[<p>En el campo Mi peque&ntilde;a descripci&oacute;n: ingresar un texto por ejemplo descripcion 1</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El texto ingresado es mostrado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[25]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton Guardar ubicado al final del formulario.</p>]]></actions>
+	<expectedresults><![CDATA[<p>Nos muestra un mensaje de Actualizado correctamente</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="450" name="Validar El botón de Eliminar Perfil de la pagina Perfil">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[39]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar el boton de eliminar perfil de la pagina perfil. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Perfil ubicado en la parte izquierda debajo del logotipo Start Americas Together</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Perfil&nbsp;https://testing-start.web.app/perfil debajo de la foto de perfil nos muetra el rol de la cuenta.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>Dar click al boton de ELIMINAR PERFIL de color rojo ubicado en la parte inferior derecha de los datos personales</p>]]></actions>
+	<expectedresults><![CDATA[<p>Muestra un mensaje de confirmacion de Eliminacion de la cuenta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>Dar click al boton confirmar eliminar perfil</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El perfil es eliminado</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="462" name="Validar la fecha de nacimiento es incorrecto en la pagina Perfil">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[40]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se&nbsp; ingreso una fecha de nacimiento incorrecta. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Perfil ubicado en la parte izquierda debajo del logotipo de Start Americas Together</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Perfil&nbsp;https://testing-start.web.app/perfil</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click al bot&oacute;n llamado EDITAR PERFIL ubicado en la parte de informaci&oacute;n a lado del bot&oacute;n ELIMINAR PERFIL</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; nos abre un formulario donde podemos volver a ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo Fecha de nacimiento dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra un selector de fecha</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar una fecha mayor a la actual justo un dia despues a la fecha en que se ejecuta este caso de prueba</p>]]></actions>
+	<expectedresults><![CDATA[<p>muestra un mensaje de fecha de nacimiento incorrecto&nbsp;</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="505" name="Validar la fecha de nacimiento en el día que se ejecuta la prueba en la pagina de Perfil">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[42]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se&nbsp; ingreso una fecha de nacimiento correcta. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Perfil ubicado en la parte izquierda debajo del logotipo de Start Americas Together</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Perfil&nbsp;https://testing-start.web.app/perfil</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click al bot&oacute;n llamado EDITAR PERFIL ubicado en la parte de informaci&oacute;n a lado del bot&oacute;n ELIMINAR PERFIL</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; nos abre un formulario donde podemos volver a ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo Fecha de nacimiento dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra un selector de fecha</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la fecha actual en la que se esta ejecutando este caso de prueba.</p>]]></actions>
+	<expectedresults><![CDATA[<p>muestra la fecha ingresada en el campo de la fecha.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="492" name="Validar la fecha de nacimiento cuando la fecha es correcta en la pagina Perfil">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[41]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>&nbsp;Validar que se&nbsp; ingreso una fecha de nacimiento correcta. Valido para cualquier tipo de rol.</p>]]></summary>
+	<preconditions><![CDATA[<p>Acceso a internet</p>
+<p>Un navegador web</p>
+<p>Una cuenta en la aplicaci&oacute;n Start Americas Together</p>]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Abrir en el navegador web la pagina&nbsp;https://testing-start.web.app</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El navegador web abre la pagina&nbsp;https://testing-start.web.app</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Dar click en el boton ubicado en la parte superior derecha llamado LOGIN</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El boton nos dirige a la pagina de inicio de sesion&nbsp;https://testing-start.web.app/login</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Correo Electr&oacute;nico dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Podremos introducir un correo electronico</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>En el campo de texto llamado Correo Electronico ingresar el correo electronico de voluntaro que es voluntario@gmail.com</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;El correo electronico se muestra en el campo.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>&nbsp;En el campo de texto con el nombre Contrase&ntilde;a dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>Permite ingresar la contrase&ntilde;a de voluntario</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar la contrase&ntilde;a de voluntario que es 123456</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;La contrase&ntilde;a se muestra oculta</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Dar click al bot&oacute;n INICIAR SESION ubicado debajo del campo contrase&ntilde;a.</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos inicia sesi&oacute;n en la aplicaci&oacute;n web mostrando la bienvenida.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>En el menu Dar click en Perfil ubicado en la parte izquierda debajo del logotipo de Start Americas Together</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;Nos redirige a la pagina de Perfil&nbsp;https://testing-start.web.app/perfil</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[9]]></step_number>
+	<actions><![CDATA[<p>&nbsp; Dar click al bot&oacute;n llamado EDITAR PERFIL ubicado en la parte de informaci&oacute;n a lado del bot&oacute;n ELIMINAR PERFIL</p>]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp; nos abre un formulario donde podemos volver a ingresar los datos.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[10]]></step_number>
+	<actions><![CDATA[<p>En el campo Fecha de nacimiento dar click</p>]]></actions>
+	<expectedresults><![CDATA[<p>nos muestra un selector de fecha</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[11]]></step_number>
+	<actions><![CDATA[<p>&nbsp;Ingresar una fecha anterior a la que se esta ejecutando este caso de pruba</p>]]></actions>
+	<expectedresults><![CDATA[<p>muestra la fecha ingresada en el campo de la fecha.</p>]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite></testsuite>
