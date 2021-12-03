@@ -1,12 +1,3 @@
-Given(/^I'm on the "Start Americas Together" homepage$/) do
-    page.driver.browser.manage.window.maximize    
-    visit 'https://testing-start.web.app/'
-end
-
-Given(/^I click on the button "Login"$/) do
-    xpath = '/html/body/div/header/div[1]/button'
-    find(:xpath, xpath).click
-end
 
 When(/^I fill the input fields with the information bellow$/) do |table|
     data = table.rows_hash
@@ -20,12 +11,7 @@ When(/^I fill the input fields with the information bellow$/) do |table|
     end
 end
 
-When(/^I click on the button "Iniciar Sesion"$/) do
-    xpath = '/html/body/div/div/div[2]/div/form/div[3]/button[1]/span[1]'
-    find(:xpath, xpath).click
-    # sleep(5)
-end
-  
+
 Then(/^the welcome message should be dispayed on the screen$/) do 
     xpath = '/html/body/div/section/h1'
     expect(page).to have_content("Bienvenido a Start Americas Together")
