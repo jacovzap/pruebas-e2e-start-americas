@@ -1,10 +1,4 @@
 
-Given(/^I'm on the "Proyectos" view$/) do
-    sleep(2)
-    xpath = '/html/body/div/header/div[2]/div/button[2]'
-    find(:xpath, xpath).click
-end
-
 
 
 When(/^I fill the input fields of project with the information bellow$/) do |table|

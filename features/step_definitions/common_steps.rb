@@ -19,6 +19,14 @@ Given(/^I'm logged on the "Start Americas Together" page$/) do
 end
 
 
+
+Given(/^I'm on the "([^"]*)" view$/) do  |button_name|
+    sleep(4)
+    click_button(button_name)
+end
+
+
+
 When(/^I click on the button "([^"]*)"$/) do |button_name|
     # xpath = '/html/body/div/div/div[2]/form/div[2]/div[5]/input'
     click_button(button_name)

@@ -1,8 +1,3 @@
-Given(/^I'm on the "Eventos" view$/) do
-    sleep(2)
-    xpath = '/html/body/div/header/div[2]/div/button[3]'
-    find(:xpath, xpath).click
-end
 
 
 Given(/^the event "([^"]*)" exists in the past event list$/) do |event_name|

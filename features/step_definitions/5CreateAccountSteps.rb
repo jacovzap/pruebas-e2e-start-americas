@@ -1,9 +1,5 @@
 
 
-Given(/^I'm on the "([^"]*)" view$/) do  |button_name|
-    click_button(button_name)
-end
-
 When(/^I fill the new user input fields with the information bellow$/) do |table|
     data = table.rows_hash
     data.each_pair do |key, value|
@@ -32,5 +28,6 @@ end
 
 
 Then(/^Then I should be returned to the login view$/) do
-    find('Iniciar Sesión')
+    xpath = '/html/body/div/section/h1'
+    expect(page).to have_content("Bienvenido a Start Americas Together")
 end
