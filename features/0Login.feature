@@ -3,37 +3,19 @@ Feature: Login in the page with the credentials
     As a registered user
     I want to login with my credentials
 
+Background:
+    Given I have browsed to the Start Americas Together login page 
 
-Scenario: Login as voluntary
-    Given I'm on the "Start Americas Together" homepage
-    And I click on the button "Login"
-    When I fill the input fields with the information bellow
-    |Correo Electronico: 	    | voluntario@gmail.com          |
-    |Contraseña: 	            | 123456                        |
-    And I click on the form button "Iniciar Sesión"
+Scenario Outline: Login as voluntary, lider, coreteam
+    Given I have entered "<e-mail>" into the email field
+    And I have entered "<password>" into the password field
+    When I press the "Iniciar Sesión" button
     Then the welcome message should be dispayed on the screen
     And the "LOG OUT" button should appear in the page
+Examples:
+    | e-mail                                 | password   |
+    | lider.auxiliar@start.auxiliar.com      | lideraux1  |
+    | lider.team.start@start.com             | lider1     |
+    | core.team.auxiliar@star.auxiliar.com   | coreteam1  |
+    | core.team.start@start.com              | coreteam1  |
 
-
-Scenario: Login as leader
-    Given I'm on the "Start Americas Together" homepage
-    And I click on the button "Login"
-    When I fill the input fields with the information bellow
-    |Correo Electronico: 	    | lider@gmail.com               |
-    |Contraseña: 	            | 123456                        |
-    And I click on the form button "Iniciar Sesión"
-    Then the welcome message should be dispayed on the screen
-    And the "LOG OUT" button should appear in the page
-    
-
-Scenario: Login as core team
-    Given I'm on the "Start Americas Together" homepage
-    And I click on the button "Login"
-    When I fill the input fields with the information bellow
-    |Correo Electronico: 	    | coreteam@gmail.com            |
-    |Contraseña: 	            | 123456                        |
-    And I click on the form button "Iniciar Sesión"
-    Then the welcome message should be dispayed on the screen
-    And the "LOG OUT" button should appear in the page
-    
-    

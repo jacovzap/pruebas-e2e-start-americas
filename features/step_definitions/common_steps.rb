@@ -3,10 +3,6 @@ Given(/^I'm on the "Start Americas Together" homepage$/) do
     visit 'https://testing-start.web.app/'
 end
 
-
-
-
-
 Given(/^I'm logged on the "Start Americas Together" page$/) do
     page.driver.browser.manage.window.maximize    
     visit 'https://testing-start.web.app/'
@@ -19,22 +15,18 @@ Given(/^I'm logged on the "Start Americas Together" page$/) do
 end
 
 
-
 Given(/^I'm on the "([^"]*)" view$/) do  |button_name|
     sleep(4)
     click_button(button_name)
 end
 
 
-
 When(/^I click on the button "([^"]*)"$/) do |button_name|
-    # xpath = '/html/body/div/div/div[2]/form/div[2]/div[5]/input'
     click_button(button_name)
 end
 
 
 When(/^I click on the form button "([^"]*)"$/) do |button_name|
-    # xpath = '/html/body/div/div/div[2]/form/div[2]/div[5]/input'
     xpath = find('form')
     xpath.click_button(button_name)
     sleep(2)
